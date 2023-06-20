@@ -27,7 +27,10 @@ export class CadEmpresaComponent {
   endereco!: string;
   contato!: string;
   cadastrarEmpresa() {
-    console.log('Empresa cadastrada:', this.nome, this.cnpj);
+    console.log('Empresa cadastrada:', this.nome, this.cnpj, this.endereco, this.contato);
+}
+removerEmpresa(){
+  console.log('empresa removida:',  this.nome, this.cnpj, this.endereco, this.contato);
+}
+}
 
-}
-}

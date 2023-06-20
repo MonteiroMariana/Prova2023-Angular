@@ -11,7 +11,8 @@ import { EmpresaListaComponent } from './empresa-lista/empresa-lista.component';
   declarations: [
     AppComponent,
     CadEmpresaComponent,
-    EmpresaListaComponent
+    EmpresaListaComponent,
+
   ],
   imports: [
     BrowserModule,
