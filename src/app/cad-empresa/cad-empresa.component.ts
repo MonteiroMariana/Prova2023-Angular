@@ -16,6 +16,7 @@ import { ReactiveFormsModule } from '@angular/forms';
   selector: 'app-cad-empresa',
   templateUrl: './cad-empresa.component.html',
   styleUrls: ['./cad-empresa.component.css']
+
 }),
 
 

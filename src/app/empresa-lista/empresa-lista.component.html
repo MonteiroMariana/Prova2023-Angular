@@ -1,0 +1,26 @@
+<p>empresa-lista works!</p>
+
+
+<table>
+  <thead>
+
+    <tr>
+      <th>Nome</th>
+      <th>CNPJ</th>
+      <th>Endereço</th>
+      <th>Contato</th>
+    </tr>
+
+
+  </thead>
+  <tbody>
+    <tr *ngFor="let empresa of empresas">
+
+      <td>{{ empresa.nome }}</td>
+      <td>{{ empresa.cnpj }}</td>
+      <td>{{ empresa.endereco }}</td>
+      <td>{{ empresa.contato }}</td>
+
+    </tr>
+  </tbody>
+</table>
